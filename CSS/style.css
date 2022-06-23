@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box; 
+}
+.div1 {
+  background-image: url(/images/m1.jpg);
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pepo {
+  display: flex;
+  justify-content: space-between;
+}
+#ve{
+  color: blue;
+}
+.div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.div2 h1 {
+  color: white;
+  font-size: 100px;
+}
+.div2 p {
+  color: white;
+  font-size: 50px;
+}
+.em1 {
+  color: blue;
+}
+.div3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+.div5 h1 {
+  color: blue;
+  font-size: 50px;
+}
+.em2 {
+  color: blue;
+}
+.but1 {
+  background-color: blue;
+  color: white;
+  height: 50px;
+  width: 120px;
+  border-radius: 5px;
+}
+/* .div6 {
+  margin-top: 80px;
+  height: 300px;
+  width: 100%;
+  
+} */
+.div6 {
+ 
+  background-image: linear-gradient(180deg, #e3987f, #5c648c);
+  height: 300px;
+  width: 100%;
+  margin-top: 50px;
+}
+.mo{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.div7{
+margin-top: 30px;
+}
+.div7 h1 {
+  color: white;
+}
+.div7 a {
+  font-size: 30px;
+}
+.div7 p {
+  color: white;
+}
+.div8{
+  margin-top: 30px;
+}
+.div8 h1 {
+  color: white;
+}
+.div8 a {
+  font-size: 30px;
+}
+.div8 p {
+  color: white;
+}
+.div9{
+  margin-top: 30px;
+}
+.div9 h1 {
+  color: white;
+}
+.div9 a {
+  font-size: 30px;
+}
+.div9 p {
+  color: white;
+}
+.nv1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.nv1 h1 {
+  color: blue;
+  font-size: 50px;
+}
+.div10 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+.div10 img {
+  width: 230px;
+  height: 230px;
+}
+.foot {
+}
+.div11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.foot {
+  background-image: url(/images/m8.jpg);
+  background-color: #cccccc;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
+.div11 {
+  height: 200px;
+}
+.div11 h1 {
+  margin-bottom: 50px;
+  color: white;
+  font-size: 50px;
+}
+.div11 p {
+  color: white;
+}
+.fex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+.fex h1 {
+  color: white;
+  font-size: 20px;
+}
+.head {
+  margin-bottom: 50px;
+}
+.div13 h1 {
+  margin-bottom: 50px;
+}
+.put1 {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+}
+.put2 {
+  background-color: white;
+  color: blue;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+.wow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 130px;
+}
+.em3 {
+  color: blue;
+}
+@media screen and (max-width: 1000px){
+.div3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+}
+@media screen and (max-width: 1000px){
+  .div3 img{
+    margin-bottom: 20px;
+    }
+  }
+@media screen and (max-width: 1000px){
+  .div10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+  }
+  @media screen and (max-width: 1000px){
+    .div10 img {
+     margin-bottom: 20px;
+      }
+    }
+    @media screen and (max-width: 1000px){
+      .div11 h1 {
+       margin-bottom: 20px;
+        }
+      }
+      @media screen and (max-width: 1000px){
+        .div7 {
+         margin-right: 20px;
+          }
+        }
+        @media screen and (max-width: 1000px){
+          .div9{
+           margin-left: 30px;
+            }
+          }
+  
